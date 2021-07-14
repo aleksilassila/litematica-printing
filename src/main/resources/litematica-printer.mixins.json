@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.jensvh.litematica.printermod.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "ConfigsMixin",
+    "GuiConfigsMixin",
+	"InputHandlerMixin",
+	"MixinClientPlayerEntity",
+	"MixinClientPlayerInteractionManager"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
